@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://unpkg.com/vue"></script>
+    <script src="app.js" defer></script>
+    <title>Matador de monstros</title>
+</head>
+<body>
+    <div id="jogador">
+        <h1>Jogador</h1>
+        <div class="barra-progresso">
+			<div class="progresso" :style="{width}"></div>
+		</div>
+    </div>
+    <div id="monstro">
+        <h1>Monstro</h1>
+        <div class="barra-progresso">
+			<div class="progresso" :style="{width}"></div>
+		</div>
+    </div>
+    <div class="div-buttons">
+        <button class="atk">Ataque</button>
+        <button class="atk-especial">Ataque Especial</button>
+        <button class="curar">Curar</button>
+        <button class="desistir">Desistir</button>
+    </div>
+</body>
+</html>
