@@ -13,3 +13,19 @@
 	background-color: gray;
 	width: 50px !important;
 }
+
+.quadrado{
+	width: 100px;
+	height: 100px;
+}
+
+.brilhante{
+	border: 2 px solid green;
+	color:red;
+	background-color: grey;
+	transform: rotate(25deg);
+}
+
+.perigo{
+	background-color: red;
+}

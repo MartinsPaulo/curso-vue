@@ -1,7 +1,10 @@
 new Vue({
 	el: '#desafio',
 	data: {
-		classe1: 'destaque'
+		classe1: 'destaque',
+		userClass: '',
+		userClass4: '',
+		danger: true	
 	},
 	methods: {
 		iniciarEfeito() {
@@ -9,6 +12,9 @@ new Vue({
 		},
 		iniciarProgresso() {
 
+		},
+		setPerigo(){
+			this.danger = !this.danger
 		}
 	}
 })
